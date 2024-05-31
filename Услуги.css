@@ -439,7 +439,7 @@
 .u-section-2 .u-form-1 {
   height: 420px;
   width: 570px;
-  margin: 36px auto 60px;
+  margin: 36px auto 0;
 }
 
 .u-section-2 .u-form-group-3 {
@@ -450,14 +450,28 @@
   margin-left: 0;
 }
 
+.u-section-2 .u-custom-php-1 {
+  width: 570px;
+  min-height: 228px;
+  margin: 30px auto 60px;
+}
+
 @media (max-width: 767px) {
   .u-section-2 .u-form-1 {
+    width: 540px;
+  }
+
+  .u-section-2 .u-custom-php-1 {
     width: 540px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-form-1 {
+    width: 340px;
+  }
+
+  .u-section-2 .u-custom-php-1 {
     width: 340px;
   }
 }.u-section-3 .u-sheet-1 {
